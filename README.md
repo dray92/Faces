@@ -60,3 +60,71 @@ JSON Result:
     }
 ]
 ```
+
+Sample URL: http://www.stopfryingyourbrain.com/wp-content/uploads/2014/12/A_party.gif
+
+JSON Result: 
+```
+[
+    {
+        "faceRectangle": {
+            "top": 49,
+            "left": 418,
+            "width": 199,
+            "height": 199
+        },
+        "faceAttributes": {
+            "gender": "male",
+            "age": 29.9
+        }
+    },
+    {
+        "faceRectangle": {
+            "top": 140,
+            "left": 532,
+            "width": 195,
+            "height": 195
+        },
+        "faceAttributes": {
+            "gender": "female",
+            "age": 25.1
+        }
+    },
+    {
+        "faceRectangle": {
+            "top": 83,
+            "left": 19,
+            "width": 188,
+            "height": 188
+        },
+        "faceAttributes": {
+            "gender": "male",
+            "age": 28.1
+        }
+    },
+    {
+        "faceRectangle": {
+            "top": 279,
+            "left": 34,
+            "width": 186,
+            "height": 186
+        },
+        "faceAttributes": {
+            "gender": "female",
+            "age": 26.6
+        }
+    },
+    {
+        "faceRectangle": {
+            "top": 180,
+            "left": 273,
+            "width": 173,
+            "height": 173
+        },
+        "faceAttributes": {
+            "gender": "female",
+            "age": 25.2
+        }
+    }
+]
+```
