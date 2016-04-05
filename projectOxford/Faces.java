@@ -32,7 +32,8 @@ public class Faces {
 		String imgBinaryString = null;
 		String base64ImgBinaryString = null;
 		try {
-			URL url = new URL("http://www.businessstudynotes.com/wp-content/uploads/2015/09/Role-of-Group.jpg");
+			URL url = new URL("http://www.stopfryingyourbrain.com/wp-content/uploads/2014/12/A_party.gif");
+								//"http://www.businessstudynotes.com/wp-content/uploads/2015/09/Role-of-Group.jpg");
 								//"http://www.huntresearchgroup.org.uk/images/group/group_photo_2010.jpg");
 			BufferedImage image = ImageIO.read(url);
 			ByteArrayOutputStream baos = new ByteArrayOutputStream();
